@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" rx="16" fill="url(#bg-grad)"/>
+
+  <!-- Dynamic Glowing Grid Background (Low opacity so text stays foreground) -->
+  <g opacity="0.15">
+    <path d="M0 50 H1200 M0 100 H1200 M0 150 H1200 M0 200 H1200 M0 250 H1200" stroke="#38bdf8" stroke-width="1"/>
+    <path d="M100 0 V300 M200 0 V300 M300 0 V300 M400 0 V300 M500 0 V300 M600 0 V300 M700 0 V300 M800 0 V300 M900 0 V300 M1000 0 V300 M1100 0 V300" stroke="#38bdf8" stroke-width="1"/>
+  </g>
+
+  <!-- Dynamic Animated Trace / Telemetry Waves (Background Elements) -->
+  <g opacity="0.35">
+    <!-- Pulsing Node Waves -->
+    <path d="M 50,220 Q 200,100 400,210 T 800,180 T 1150,80" fill="none" stroke="#38bdf8" stroke-width="3">
+      <animate attributeName="stroke-dasharray" values="0,1500;1500,0" dur="6s" repeatCount="indefinite" />
+    </path>
+    <path d="M 50,80 Q 300,260 600,120 T 1150,220" fill="none" stroke="#c084fc" stroke-width="2" stroke-dasharray="6,6">
+      <animate attributeName="stroke-dashoffset" values="100;0" dur="4s" repeatCount="indefinite" />
+    </path>
+    
+    <!-- Pulse Circles -->
+    <circle cx="200" cy="140" r="6" fill="#38bdf8" filter="url(#glow)">
+      <animate attributeName="r" values="4;10;4" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="120" r="8" fill="#818cf8" filter="url(#glow)">
+      <animate attributeName="r" values="5;12;5" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="950" cy="190" r="5" fill="#c084fc" filter="url(#glow)">
+      <animate attributeName="r" values="3;9;3" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- FOREGROUND CONTENT: Header Title & Subtitle (Guaranteed high legibility) -->
+  <g text-anchor="middle">
+    <!-- Icon / Badge -->
+    <rect x="540" y="35" width="120" height="28" rx="14" fill="#38bdf8" fill-opacity="0.2" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="600" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#38bdf8" letter-spacing="1.5">PRODUCTION READY</text>
+
+    <!-- Main Title -->
+    <text x="600" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="900" fill="url(#text-grad)" filter="url(#glow)" letter-spacing="-0.5">
+      Awesome AI Agent Observability
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="175" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="400" fill="#94a3b8" letter-spacing="0.5">
+      Tracing, Span-Level Telemetry, Cost Analytics &amp; Multi-Agent Debugging
+    </text>
+
+    <!-- Feature Tags -->
+    <g transform="translate(0, 220)">
+      <!-- Tag 1 -->
+      <rect x="330" y="0" width="160" height="32" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="410" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#cbd5e1" font-weight="600">🔍 OpenTelemetry Tracing</text>
+      
+      <!-- Tag 2 -->
+      <rect x="510" y="0" width="180" height="32" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="600" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#cbd5e1" font-weight="600">⚡ Cost &amp; Latency Analytics</text>
+      
+      <!-- Tag 3 -->
+      <rect x="710" y="0" width="160" height="32" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="790" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#cbd5e1" font-weight="600">🛠️ Tool Call Visibility</text>
+    </g>
+  </g>
+</svg>
