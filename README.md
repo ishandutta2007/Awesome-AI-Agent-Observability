@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Observability/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Agent-Observability?style=social" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Observability/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Agent-Observability?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Observability/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Agent-Observability?style=social" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Observability/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-AI-Agent-Observability?style=flat-square&color=blue" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -60,9 +60,9 @@ The table below lists leading commercial SaaS platforms for LLM tracing and mult
 
 ## 🔓 Open-Source GitHub Projects
 
-Below are top open-source projects for self-hosted agent tracing, OpenTelemetry (OTel) collectors, and evaluation frameworks, **sorted by Star Count (Descending)**:
+Below are top open-source projects for self-hosted agent tracing, OpenTelemetry (OTel) collectors, and evaluation frameworks, **sorted by Stars_Count (Descending)**:
 
-| Repository 📦 | GitHub Stars ⭐ | License 📄 | Focus Area 🎯 |
+| Repository 📦 | GitHub_Stars ⭐ | License 📄 | Focus Area 🎯 |
 | :--- | :--- | :--- | :--- |
 | **[BerriAI/litellm](https://github.com/BerriAI/litellm)** | [<img src="https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white" alt="LiteLLM Stars"/>](https://github.com/BerriAI/litellm/stargazers) | MIT | Proxy gateway for 100+ LLMs with unified logging, budget tracking, and tracing output. |
 | **[langfuse/langfuse](https://github.com/langfuse/langfuse)** | [<img src="https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white" alt="Langfuse Stars"/>](https://github.com/langfuse/langfuse/stargazers) | MIT | Complete open-source LLM & agent engineering platform—traces, spans, sessions, prompt management, and evaluations. |
@@ -91,7 +91,7 @@ We welcome community contributions! Follow these steps to submit new SaaS platfo
 
 1. 🍴 **Fork** this repository.
 2. 📝 Edit `README.md` following the tabular format established above.
-3. 🔍 Ensure all details (pricing, free tier limits, star badges, and links) are verified.
+3. 🔍 Ensure all details (pricing, free tier limits, Stars_Badges, and links) are verified.
 4. 🚀 Submit a **Pull Request** with a descriptive summary of your addition.
 
 ---
