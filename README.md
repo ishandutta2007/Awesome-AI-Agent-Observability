@@ -6,6 +6,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Observability/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Agent-Observability?style=social" alt="GitHub Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Observability/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Agent-Observability?style=social" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Observability/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-AI-Agent-Observability?style=flat-square&color=blue" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 <p align="center">
@@ -26,6 +27,8 @@
 - [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
 - [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
 ---
@@ -90,6 +93,22 @@ We welcome community contributions! Follow these steps to submit new SaaS platfo
 2. 📝 Edit `README.md` following the tabular format established above.
 3. 🔍 Ensure all details (pricing, free tier limits, star badges, and links) are verified.
 4. 🚀 Submit a **Pull Request** with a descriptive summary of your addition.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring this curated list! If you found this repository helpful, please consider:
+- ⭐ **Starring** the repository to boost visibility.
+- 🍴 **Forking** it to share with your network or add your own contributions.
+- 📣 **Sharing** it with fellow AI developers and platform engineers.
+- ☕ Supporting further open-source development by buying a coffee via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-AI-Agent-Observability&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-AI-Agent-Observability&type=date&legend=top-left)
 
 ---
 
